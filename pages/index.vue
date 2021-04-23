@@ -2,6 +2,7 @@
   <div class="main">
     <Navbar />
     <Botbar />
+    safgsgfsgffgddfsgsfgd
 
     <div class="bg-black">
       <img src="/img/behwhite.svg" alt="">
