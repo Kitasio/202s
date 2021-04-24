@@ -2,10 +2,9 @@
   <div class="mixer sticky top-3 m-3 md:m-5 lg:m-8 md:top-8">
 
       <div class="mixer">
-        <!-- <img src="/img/desktop_logo.jpg" alt=""> -->
         <picture>
-            <source media="(max-width: 600px)" srcset="/img/mobile_logo.jpg">
-            <img src="/img/desktop_logo.jpg" alt="">
+            <source media="(max-width: 600px)" srcset="/img/mobile.jpg">
+            <img src="/img/desktop.jpg" alt="">
         </picture>
       </div>
       <div class="flex justify-between uppercase mt-3 font-light lg:text-lg xl:text-2xl 2xl:text-4xl">
