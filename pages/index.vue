@@ -2,7 +2,7 @@
   <div class="main" style="background-color: white;">
     <Navbar />
     <Botbar />
-
+    <img src="/img/comp.gif" height="20px" width="30px" alt="">
     <img class="w-full mx-auto mt-64" src="/img/Package.jpg" alt="">
     <img class="mb-64 w-full mx-auto mt-64" src="/img/banner.jpg" alt="">
   </div>

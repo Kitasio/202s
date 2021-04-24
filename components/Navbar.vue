@@ -1,14 +1,17 @@
 <template>
   <div class="mixer flex sticky top-3 m-3 md:m-5 lg:m-8 md:top-8">
-   <div class="mixer wrapper max-w-1/4">
-      <div class="container">
+    <!--<<div class="mixer wrapper max-w-1/4">
+  
+     div class="container">
           <div class="back side"></div>
           <div class="top side"></div>
           <div class="bottom side"></div>
           <div class="front side"></div>
       </div>
-  </div>
+  </div>-->
+   
       <div class="mixer">
+        <img src="/img/logo.gif" height="24px" width="68px" alt="">
         <picture>
             <source media="(max-width: 600px)" srcset="/img/mobile.jpg">
             <img src="/img/desktop.jpg" alt="">
