@@ -1,6 +1,6 @@
 <template>
-  <div class="mixer sticky top-3 m-3 md:m-5 lg:m-8 md:top-8">
-   <div clas="mixer wrapper">
+  <div class="mixer flex sticky top-3 m-3 md:m-5 lg:m-8 md:top-8">
+   <div class="mixer wrapper max-w-1/4">
       <div class="container">
           <div class="back side"></div>
           <div class="top side"></div>
