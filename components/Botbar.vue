@@ -1,6 +1,7 @@
 <template>
+
   <div>
-      <div class="crop absolute" style="--scale: 0.5"><div class="request-anim"></div></div>
+      <div class="crop absolute" style="--scale: 0.7"><div class="request-anim"><img src="/img/request.jpg" alt=""></div></div>
   </div>
 </template>
 
@@ -13,11 +14,12 @@ export default {
 <style>
 
 .crop{
+ mix-blend-mode: difference;
   animation-iteration-count: infinite;
   animation-duration: 3s;
-  animation-name: cropped;
-  width: 15rem;
-  border:1px solid rgb(255, 0, 0);
+  /* animation-name: cropped; */
+  width: 10rem;
+  border:1px solid black;
   transform: scaleY(var(--scale));
   overflow: hidden;
 }
@@ -26,14 +28,16 @@ export default {
   transform: scaleY(calc(1/var(--scale)));
 }
 .request-anim{
-
-  width: 15rem;
-  height: 3rem; 
+  
+  text-align: center;
+  padding:0;
+  mix-blend-mode: difference;
+  width: 10rem;
   transform-origin: center;
   overflow: hidden;
-  background-image: url('/img/request.jpg'); 
-  background-repeat: no-repeat; 
-  background-size: 100% 3rem; 
+  /* background-image: url('/img/request.jpg');  */
+  /* background-repeat: no-repeat;  */
+  /* background-size: 100% 3rem;  */
 }
 
 @keyframes cropped {
