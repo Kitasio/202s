@@ -1,9 +1,11 @@
 <template>
   <div class="main" style="background-color: white;">
+    <img style="position:fixed; margin-top:140px;" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/881jdm7sdnril6hn3f3l.PNG" >
     <Navbar />
     <Botbar />
-
+    
   </div>
+
 </template>
 
 <script>

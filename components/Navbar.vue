@@ -3,7 +3,7 @@
     <div>
       <picture>
           <source media="(max-width: 600px)" srcset="/img/mobile_logo.svg">
-          <img class="w-full" src="/img/desktop_logo.svg" alt="">
+          <img class="mixer w-full" src="/img/desktop_logo.svg" alt="">
       </picture>
     </div>
     <div class="flex justify-between uppercase mt-3 font-light lg:text-lg xl:text-2xl 2xl:text-4xl">
@@ -28,5 +28,7 @@ export default {
 </script>
 
 <style>
-
+.mixer{
+ mix-blend-mode: difference;
+}
 </style>

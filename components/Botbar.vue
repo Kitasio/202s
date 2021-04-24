@@ -1,7 +1,7 @@
 <template>
 
   <div>
-      <div class="crop absolute" style="--scale: 0.7"><div class="request-anim"><img src="/img/request.jpg" alt=""></div></div>
+      <div class="crop absolute" style="--scale: 0.5"><div class="request-anim"><img src="/img/request.jpg" alt=""></div></div>
   </div>
 </template>
 
@@ -14,12 +14,13 @@ export default {
 <style>
 
 .crop{
+  
  mix-blend-mode: difference;
   animation-iteration-count: infinite;
   animation-duration: 3s;
   /* animation-name: cropped; */
   width: 10rem;
-  border:1px solid black;
+  border:5px solid white;
   transform: scaleY(var(--scale));
   overflow: hidden;
 }
